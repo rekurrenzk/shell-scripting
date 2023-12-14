@@ -4,7 +4,6 @@ LINES=50	#lines saved
 E_XCD=66	#cant change dir
 E_NOTROOT=67
 
-
 if [ "$UID -ne "$ROOT_UID" ]
 then
 	echo "Must be root to run this script"
