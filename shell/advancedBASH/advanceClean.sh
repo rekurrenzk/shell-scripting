@@ -31,5 +31,6 @@ mv mesg.temp messages
 cat /dev/null > wtmp
 echo "logs are cleaned up"
 
+
 exit 0
 
