@@ -25,6 +25,7 @@ then
 	exit $E_XCD
 fi
 
+
 tail -$lines messages > mesg.temp
 mv mesg.temp messages
 
